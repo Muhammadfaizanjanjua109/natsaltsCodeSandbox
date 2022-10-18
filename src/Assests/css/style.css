@@ -1,3 +1,34 @@
-.Home{
-    min-height: calc(100vh - 308px);
+.Home {
+  min-height: calc(100vh - 308px);
 }
+
+.carddeckbutton {
+  position: absolute;
+  z-index: 200;
+  bottom: 50%;
+  left: 50%;
+}
+.carddeckbuttonDiv {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.HoverwaliDiv {
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  background-color: #000000db;
+  z-index: 5;
+  bottom: 0;
+}
+.hoverDiv {
+  position: relative;
+}
+/* .hoverDiv .card-deck.container-fluid:is( :active , :hover) + .HoverwaliDiv
+{
+    display: block
+}
+.hoverDiv .card-deck.container-fluid ~ .HoverwaliDiv
+{
+    display: none
+} */
